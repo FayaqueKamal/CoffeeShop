@@ -1,0 +1,57 @@
+ @media only screen and (max-width: 950px) {
+     .section1>nav {
+         flex-direction: column;
+         gap: 20px;
+     }
+
+     .secttion1 {
+
+         background-size: cover;
+         background-position: center;
+     }
+
+     .main h3 {
+         font-size: 1rem;
+
+     }
+
+     .main p {
+         font-size: 0.9rem;
+
+     }
+
+     .main img {
+         width: 200px;
+     }
+     .heading {
+         font-size: 1.5rem;
+         text-align: center;
+         margin-top: 20px;
+     }
+     .about {
+         font-size: 1rem;
+         text-align: center;
+         margin-top: 20px;
+     }
+     .section2 {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         gap: 50px;
+     }
+     .section2 >:first-child{
+    padding: 35px;
+    width: 100%;
+    margin-left: 0px;
+     }
+     .box div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     }
+     .footer{
+        display: none;
+     }
+ }
